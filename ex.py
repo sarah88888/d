@@ -9,19 +9,19 @@ conInt = int(x)
 print(conInt)
 
 # increase the x value by 6 using assignment operator
+x += 6
+print(x)
+
+# get the module of the new x by 3
+print(x % 3)
 
 
-def addfun(x=0,y=0):
-    print(x+y)
 
-addfun(2+4)
+# write a simple ternary operator
+# if number 8 is odd or not
+odd = True if x%2 > 0 else False
+print(odd)
 
-# 	- get the module of the new x by 3
-
-
-#write s simple ternary operator
-name = "sarah"
-print("yesnametrur") if name =="sara" else print("not nametrue")
 
 list= [2,4,6,8,10]
 
