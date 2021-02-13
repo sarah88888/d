@@ -26,7 +26,7 @@ print(odd)
 list= [2,4,6,8,10]
 
 # - check to see if 4 in this list or not
-if 4 in list:
+if not  4 in list:
     print("yes this 4")
 else:
     print("not equle 4")
@@ -40,7 +40,7 @@ else:
 
 # - check to see if 3 or 6 in this list
 
-if all([6,3]) in list:
+if any([6,3]) in list:
     print("yes this 3,6")
 else:
     print("not equle 3 ,6")
